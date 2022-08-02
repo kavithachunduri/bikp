@@ -1,3 +1,4 @@
+
 import React from 'react';
 import './App.css';
 
@@ -7,9 +8,16 @@ import {NavLink,Routes,Route} from 'react-router-dom';
 import Poovai from './Components/Poovai'
 import Home from './Components/Home'
 
+
+
+import Imane from '../Components/Imane'
+
+
+
 function App() {
   return (
     <div className="App">
+
          
           <nav>
 
@@ -25,7 +33,16 @@ function App() {
           <Route path="/poovai" element={<Poovai/>}/>
           
           </Routes>
-    
+
+      
+
+
+ 
+
+     
+
+
+
     </div>
   );
 }

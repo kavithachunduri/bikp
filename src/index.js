@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { BrowserRouter } from "react-router-dom";
- //aliasing  import { BrowserRouter as Router  } from "react-router-dom";
+
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,4 +13,9 @@ ReactDOM.render(
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
+
 );
+
+ 
+
+
