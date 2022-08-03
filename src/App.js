@@ -1,29 +1,47 @@
+
+
 import React from 'react';
 import './App.css';
-import {NavLink, Routes,Route} from 'react-router-dom';
+import {Route, Routes, NavLink } from 'react-router-dom';
+import Bezawit from './Components/Bezawit';
+import Poovai from './Components/Poovai'
+import Home from './Components/Home'
 import Imane from './Components/Imane'
-import Welcome from './page/Welcome'
+
 
 function App() {
   return (
     <div className="App">
-          <nav>
-            <NavLink to={"/"}className='nav-links'>Home</NavLink>
+
+
+         <nav>
+
+            <NavLink to={"/"}>Home</NavLink>
+            <NavLink to={"/poovai"} className="nav-links">Poovai</NavLink>
+            <NavLink to={"/bezawit"} className="nav-links">Bezawit</NavLink>
             <NavLink to={"/imane"} className="nav-links">Imane</NavLink>
+
+
           </nav>
-         
-           
-          <Routes>
-          <Route path="/" element={<Welcome></Welcome>}></Route>
-          <Route path="/imane" element={<Imane/>}/>
           
+          
+          <Routes>
+          
+          <Route path="/" element={<Home/>}/>
+          <Route path="/poovai" element={<Poovai/>}/>
+
+          <Route path="/bezawit" element={<Bezawit/>}/>
+          <Route path="/imane" element={<Imane/>}/>
+
+
           
           </Routes>
-          </div>
-    
-    
-    // </div>
+
+      </div>
   );
 }
+export default App
 
-export default App;
+  
+
+

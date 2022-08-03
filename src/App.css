@@ -5,6 +5,15 @@ p {
   margin: 20px;
   /* justify-content: center; */
   text-align: center;
+  }
+.img-bezawit{
+  
+  background-image:url("https://www.farebuzz.com/born-free/wp-content/uploads/2016/02/Boston-17.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
+  position:relative;
+
 }
 
 nav {
@@ -17,12 +26,7 @@ nav {
   background-color: rgb(44, 75, 121);
 }
 
-.nav-links {
-  color: rgb(0, 0, 0);
-  margin: 5px;
-  font-size: large;
-  /* background-color: #282c34; */
-}
+
 
 .gg {
   text-align: center;
@@ -53,40 +57,93 @@ nav {
 }
 
 .App {
+
+ justify-content: flex-end;
+ margin:10px;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.nav-links{
+  color:green;
+  margin:5px;
+  font-size: large;
+}
+
+.bezawit-info{
+  background-color: #eee;
+  border-radius: 16px;
+  padding:25px;
+  position:absolute;
+  top:40%;
+  left:35%;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.row{
+  display:flex;
+  justify-content:center;
+  
+}
+
+.row p{
+  display:list-item;
+ 
+  margin:10px;
+}
+
+h1{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.poovai{
+  background-image: url("../poovai-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
+ 
+}
+.image{
+  margin-top: 10px;
+  background-image: url("../poovai.png");
+  width:500px;
+  height:850px;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.poovai-info{
+  display:flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.poovai-content{
+  display:flex;
+  margin-top: 20px;
+  flex-direction: column;
+  max-width:500px;
+  height:740px;
+  justify-content: center;
+  text-align: justify;
+  padding:50px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  
+}
+.leaf{
+  width:500px;
+  height:250px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }

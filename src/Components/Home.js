@@ -1,10 +1,13 @@
 import React from 'react'
 
 const Home = () => {
-    <div className='Home'>
-        <h1> Welcom to BIKP Group </h1>
 
+  return (
+    <div>
+        <h1>Welcome to BIKP's Group Github Collaboration!!!</h1>
     </div>
+  )
 }
 
 export default Home
+
