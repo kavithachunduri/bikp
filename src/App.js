@@ -6,9 +6,9 @@ import Bezawit from './Components/Bezawit';
 import Poovai from './Components/Poovai'
 import Home from './Components/Home'
 import Imane from './Components/Imane'
-import {NavLink,Routes,Route} from 'react-router-dom';
+
 import Kavitha from './Components/Kavitha';
-import Home from './Components/Home'
+
 
 function App() {
   return (
