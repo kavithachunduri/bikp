@@ -33,3 +33,23 @@ nav {
   left:35%;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
+
+.row{
+  display:flex;
+  justify-content:center;
+  
+}
+
+.row p{
+  display:list-item;
+ 
+  margin:10px;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
