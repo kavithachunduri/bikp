@@ -1,16 +1,14 @@
 
+import React from 'react';
 import './App.css';
 import {Route, Routes, NavLink } from 'react-router-dom';
 import Bezawit from './Components/Bezawit';
-
-//import Bezawit from './Components/Bezawit'
-//import Kavitha from './Components/Kavitha'
 import Poovai from './Components/Poovai'
 import Home from './Components/Home'
-
-
-
 import Imane from './Components/Imane'
+
+
+
 
 
 

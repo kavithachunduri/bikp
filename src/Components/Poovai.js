@@ -15,7 +15,7 @@ const Poovai = () => {
             </div>
             
             <div className="poovai-content">
-            <h2>Hello!!! I am Poovai, a Software Engineering student at PerScholas,Pittsburgh. I am learning different front-end and back-end software technologies on my journey to become a Software Developer. 
+            <h2>Hello!!! I am Poovai, a Software Engineering student at PerScholas,Pittsburgh. Iam learning different front-end and back-end software technologies on my journey to become a Software Developer. 
                 </h2>
                 <h2>
             Skills: JS, HTML, CSS, React, Git, Github, Node, MongoDB, Mongoose

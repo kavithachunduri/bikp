@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 This is just for testing pull request
-=======
+
 group activity for github learning
 
 
