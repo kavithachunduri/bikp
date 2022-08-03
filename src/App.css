@@ -1,7 +1,58 @@
-.App {
+.img-bezawit{
+  
+  background-image:url("https://www.farebuzz.com/born-free/wp-content/uploads/2016/02/Boston-17.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
+  position:relative;
+
+}
+
+nav {
+  height: 20px;
+  display: flex;
+ justify-content: flex-end;
+ margin:10px;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.nav-links{
+  color:green;
+  margin:5px;
+  font-size: large;
+}
+
+.bezawit-info{
+  background-color: #eee;
+  border-radius: 16px;
+  padding:25px;
+  position:absolute;
+  top:40%;
+  left:35%;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.row{
+  display:flex;
+  justify-content:center;
+  
+}
+
+.row p{
+  display:list-item;
+ 
+  margin:10px;
+}
+
+h1{
   text-align: center;
 }
 
+h2{
+  text-align: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
